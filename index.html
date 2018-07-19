@@ -2,16 +2,13 @@
 layout: main
 ---
 
-{% for post in paginator.posts %}
+{% for mito in paginator.posts reversed %}
   <div class="chapter">
-    <a href="{{post.url | prepend: site.baseurl}}">
-      {% if post.img %}
-      <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
-      {% endif %}
+    <a href="{{mito.url | prepend: site.baseurl}}">
+      <div class="chapter_inner">
+        <p class="chapter_number">{%if mito.icon %}{{mito.icon}}{% endif %}</p>
+        <h3 class="chapter_title">{{mito.number}} - {{mito.title}}</h3>
+      </div>
     </a>
-    <div class="chapter_inner">
-      <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
-      <h3 class="chapter_title">{{post.title}}</h3>
-    </div>
   </div>
 {% endfor %}
