@@ -4022,6 +4022,17 @@ cite {
   color: #1c1c1c;
 }
 
+.description-section {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.description-section h2 {
+  text-transform: uppercase;
+}
+
 .chapters {
   padding: 2rem 0;
 }
