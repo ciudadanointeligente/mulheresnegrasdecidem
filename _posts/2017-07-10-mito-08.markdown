@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mito 8"
-img: indonesia.jpg # Add image post (optional)
+img:  # Add image post (optional)
 date: 2017-07-08 12:51:00 +0300
 number: 8
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
