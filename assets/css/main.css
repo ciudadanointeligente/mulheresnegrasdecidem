@@ -3955,6 +3955,10 @@ cite {
   font-weight: 700;
 }
 
+.main_header .logo img {
+  max-height: 46px;
+}
+
 .main_header .logo span {
   color: #c0334a;
   font-weight: 400;
@@ -3968,6 +3972,10 @@ cite {
 
 #banner {
   position: relative;
+  background-image: url(/assets/img/primera.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #banner .content {
@@ -3985,11 +3993,11 @@ cite {
 }
 
 #banner .content .sub_title {
-  font-weight: 400;
   font-size: 1.35rem;
   margin: 0 auto 2rem auto;
   line-height: 2.5rem;
-  font-style: italic;
+  background-color: #FCBB3B;
+  color: #1c1c1c;
 }
 
 .chapters {
