@@ -4128,10 +4128,13 @@ cite {
   position: absolute;
   left: 2.5%;
   bottom: 10%;
+  max-height: 70%;
 }
 
 .chapters .chapter_inner .chapter_number, .chapters .chapter_inner .chapter_title {
-  color: #ffffff;
+  color: #1c1c1c;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 7.5vh;
 }
 
 .chapters .chapter_inner .chapter_number {
@@ -4149,7 +4152,7 @@ cite {
 }
 
 .chapters .chapter_inner .chapter_title {
-  font-size: 1.75rem;
+  font-size: 1.35em;
   font-weight: 400;
   margin: 0 0 0.5rem 0;
 }
