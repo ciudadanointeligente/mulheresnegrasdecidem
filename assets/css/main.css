@@ -3850,7 +3850,7 @@ template {
 body {
   font-family: "Palanquin", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   margin: 0;
 }
 
@@ -3981,7 +3981,7 @@ cite {
 }
 
 .main_menu a:not(:last-child):hover {
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   color: black;
 }
 
@@ -4019,7 +4019,7 @@ cite {
   font-size: 1.35rem;
   margin: 0 auto 2rem auto;
   line-height: 2.5rem;
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   color: #1c1c1c;
 }
 
@@ -4050,7 +4050,7 @@ cite {
   margin-left: 2%;
   margin-right: 2%;
   padding: 1%;
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   position: relative;
   float: left;
 }
@@ -4159,7 +4159,7 @@ cite {
 
 #mulheres-e-sistema-politico .content .title p {
   color: #1c1c1c;
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   font-size: inherit;
   line-height: inherit;
 }
@@ -4168,12 +4168,12 @@ cite {
   font-size: 1.35rem;
   margin: 0 auto 2rem auto;
   line-height: 2.5rem;
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   color: #1c1c1c;
 }
 
 #diagnostico {
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   text-align: center;
   color: #000;
 }
@@ -4379,7 +4379,7 @@ cite {
   font-size: 1.75rem;
   -webkit-border-radius: 0.3rem;
           border-radius: 0.3rem;
-  background-color: #FCBB3B;
+  background-color: #FFB800;
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }
@@ -4544,7 +4544,7 @@ cite {
 .author .author_info .author_title {
   font-size: 1.5rem;
   margin-top: 0;
-  color: #FCBB3B;
+  color: #FFB800;
 }
 
 .author .author_info .author_title::before, .author .author_info .author_title::after {
@@ -4633,7 +4633,7 @@ cite {
 #tags h1 {
   text-align: center;
   margin: 2rem 0 3rem;
-  color: #FCBB3B;
+  color: #FFB800;
 }
 
 #tags .tags {
@@ -4688,7 +4688,7 @@ cite {
 #tags .back_to_home a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #FCBB3B;
+  color: #FFB800;
 }
 
 #tags .back_to_home a:hover {
@@ -4751,7 +4751,7 @@ cite {
 
 .about .about_social .social_footer a {
   font-size: 1rem;
-  color: #FCBB3B;
+  color: #FFB800;
   background-color: #ffffff;
 }
 
