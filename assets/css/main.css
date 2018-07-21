@@ -4027,12 +4027,12 @@ cite {
   background-color: #ffffff;
   padding: 10px;
   text-align: center;
-  color: #1c1c1c;
 }
 
 .description-section .row-candidata {
   margin-top: 10px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .description-section h2 {
@@ -4062,7 +4062,7 @@ cite {
 
 .description-section .candidata texto-candidata p {
   float: left;
-  color: #1c1c1c;
+  color: #1c1c1c !important;
   line-height: none;
   margin: none;
 }
@@ -4165,6 +4165,16 @@ cite {
   line-height: 2.5rem;
   background-color: #FCBB3B;
   color: #1c1c1c;
+}
+
+#diagnostico {
+  background-color: #FCBB3B;
+  text-align: center;
+  color: #525c65;
+}
+
+#diagnostico .importante {
+  font-weight: bold;
 }
 
 .newsletter {
