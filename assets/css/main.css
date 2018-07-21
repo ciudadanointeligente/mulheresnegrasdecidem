@@ -4040,6 +4040,22 @@ cite {
   overflow: hidden;
 }
 
+.description-section .foto-candidata {
+  position: relative;
+  float: left;
+  width: 30%;
+}
+
+.description-section .foto-candidata img {
+  width: 100%;
+  height: auto;
+}
+
+.description-section h3 a {
+  color: #000;
+  background: #FFB800;
+}
+
 .description-section h2 {
   text-transform: uppercase;
   font-weight: bold;
@@ -4060,12 +4076,13 @@ cite {
   float: left;
 }
 
-.description-section .candidata texto-candidata {
+.description-section .candidata .texto-candidata {
+  width: 69%;
   position: relative;
   float: right;
 }
 
-.description-section .candidata texto-candidata p {
+.description-section .candidata .texto-candidata p {
   float: left;
   color: #1c1c1c !important;
   line-height: none;
