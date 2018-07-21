@@ -6,8 +6,13 @@ layout: main
   <div class="chapter">
     <a href="{{mito.url | prepend: site.baseurl}}">
       <div class="chapter_inner">
-        <p class="chapter_number">{%if mito.icon %}{{mito.icon}}{% endif %}</p>
-        <h3 class="chapter_title">{{mito.number}} - {{mito.title}}</h3>
+        {% if mito.img and site.show_image_index %}
+           <img src={{ "/assets/img/" | prepend: site.baseurl | append: mito.img }} alt="{{mito.title}}">
+        {% else %}
+          <p class="chapter_number">{%if mito.icon %}{{mito.icon}}{% endif %}</p>
+          <h3 class="chapter_title">{{mito.number}} - {{mito.title}}</h3>
+        {% endif %}
+
       </div>
     </a>
   </div>
