@@ -3848,7 +3848,7 @@ template {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Palanquin", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #FCBB3B;
   margin: 0;
@@ -3858,7 +3858,7 @@ p {
   font-size: 1.1rem;
   line-height: 1.75rem;
   margin: 0 0 1.75rem;
-  color: #525c65;
+  color: #000;
   font-weight: 400;
 }
 
@@ -4027,6 +4027,11 @@ cite {
   background-color: #ffffff;
   padding: 10px;
   text-align: center;
+  color: #1c1c1c;
+}
+
+.description-section .texto-inicial-candidatas {
+  color: #1c1c1c;
 }
 
 .description-section .row-candidata {
@@ -4170,11 +4175,43 @@ cite {
 #diagnostico {
   background-color: #FCBB3B;
   text-align: center;
-  color: #525c65;
+  color: #000;
 }
 
-#diagnostico .importante {
+#diagnostico h2 {
+  color: black;
+}
+
+#diagnostico .graficos .grafico-row {
+  overflow: hidden;
+  width: 90%;
+  margin-left: 5%;
+  border-top: 2px solid black;
+}
+
+#diagnostico .graficos .grafico-row .importante {
   font-weight: bold;
+}
+
+#diagnostico .graficos .grafico-row .card-grafico {
+  width: 44%;
+  margin-left: 3%;
+  margin-right: 3%;
+  float: left;
+}
+
+#diagnostico .graficos .grafico-row .card-grafico img {
+  width: 90%;
+}
+
+#diagnostico .graficos .grafico-row .card-grafico .titulo-grafico {
+  color: #ffffff;
+  border-bottom: 2px solid black;
+  font-weight: bolder;
+  font-size: x-large;
+  width: 94%;
+  margin-left: 3%;
+  padding-bottom: 10px;
 }
 
 .newsletter {
@@ -4440,7 +4477,7 @@ cite {
 .post_footer span {
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #525c65;
+  color: #000;
 }
 
 .post_footer a {
