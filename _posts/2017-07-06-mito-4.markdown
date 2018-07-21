@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mito4"
+title: "Mulheres negras se eleitas, só defenderiam pautas de mulheres negras."
 img:  # Add image post (optional)
 date: 2017-07-04 12:52:00 +0300
 number: 4
