@@ -4030,13 +4030,21 @@ cite {
   color: #1c1c1c;
 }
 
+.description-section .row-candidata {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .description-section h2 {
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .description-section .candidata {
-  width: 50%;
+  width: 45%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 1%;
   background-color: #FCBB3B;
   position: relative;
   float: left;
@@ -4050,6 +4058,13 @@ cite {
 .description-section .candidata texto-candidata {
   position: relative;
   float: right;
+}
+
+.description-section .candidata texto-candidata p {
+  float: left;
+  color: #1c1c1c;
+  line-height: none;
+  margin: none;
 }
 
 .chapters {
