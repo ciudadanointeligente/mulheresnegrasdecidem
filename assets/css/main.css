@@ -4098,6 +4098,8 @@ cite {
   float: left;
   width: 24%;
   background-color: #391217;
+  background-repeat: no-repeat;
+  background-position: center center;
   min-height: 188px;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
