@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mito 8"
+title: "Mulheres negras não têm formação para ocuparem cargos de poder."
 img:  # Add image post (optional)
 date: 2017-07-08 12:51:00 +0300
 number: 8
