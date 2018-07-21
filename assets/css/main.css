@@ -4042,6 +4042,16 @@ cite {
   float: left;
 }
 
+.description-section .candidata img {
+  position: relative;
+  float: left;
+}
+
+.description-section .candidata texto-candidata {
+  position: relative;
+  float: right;
+}
+
 .chapters {
   padding: 2rem 0;
 }
