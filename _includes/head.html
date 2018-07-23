@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 	<meta property="og:title" content="{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}"/>
 
-	<meta property="og:image" content="{% if page.img %}{{ "/assets/img/"| append: page.img | prepend: site.baseurl }}{% else %}http://mulheresnegrasdecidem.org/assets/img/compartilhamento.png{% endif %}"/>
+	<meta property="og:image" content="{% if page.img %}{{ "assets/img/" | prepend: site.baseurl | append: page.img }}{% else %}http://mulheresnegrasdecidem.org/assets/img/compartilhamento.png{% endif %}"/>
 	<meta property="og:description" content="{{site.description}}"/>
 	<meta property="og:url" content="http://mulheresnegrasdecidem.org"/>
 	<meta property="fb:app_id" content="1848038148836677"/>
