@@ -3,13 +3,10 @@ layout: main
 ---
 
 {% for mito in paginator.posts reversed %}
-  <div class="chapter" style="background-image: url({{ "/assets/img/mitos/" | prepend: site.baseurl | append: mito.number | append: ".svg" }})">
+  <div class="chapter" style="background-image: url()">
+
     <a href="{{mito.url | prepend: site.baseurl}}">
-      <div class="chapter_inner">
-
-        <h3 class="chapter_title">{{mito.title}}</h3>
-
-      </div>
+      <img src="{{ "/assets/img/mitos/ico" | prepend: site.baseurl | append: mito.number | append: ".png" }}" alt="{{mito.title}}">
     </a>
   </div>
 {% endfor %}

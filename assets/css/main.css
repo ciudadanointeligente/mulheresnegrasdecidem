@@ -4097,16 +4097,12 @@ cite {
   position: relative;
   float: left;
   width: 24%;
-  background-color: #391217;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 188px;
   margin: 0 0.5% 1% 0.5%;
   overflow: hidden;
-  -webkit-transition: -webkit-transform 0.4s;
-  transition: -webkit-transform 0.4s;
-  transition: transform 0.4s;
-  transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 .chapters .chapter a {
@@ -4116,14 +4112,10 @@ cite {
 .chapters .chapter img {
   width: 100%;
   vertical-align: middle;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
 }
 
 .chapters .chapter img:hover {
-  -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
-          transform: scale(1.5);
+  background-color: #FFB800;
 }
 
 .chapters .chapter_inner {
