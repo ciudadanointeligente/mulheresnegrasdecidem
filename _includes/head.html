@@ -23,7 +23,7 @@
 
 	<meta property="og:image" content="{% if page.img %}{{ "http://mulhreresnegrasdecidem.org/assets/img/" | append: page.img }}{% else %}http://mulheresnegrasdecidem.org/assets/img/compartilhamento.png{% endif %}"/>
 	<meta property="og:description" content="{{site.description}}"/>
-	<meta property="og:url" content="http://mulheresnegrasdecidem.org"/>
+	<meta property="og:url" content="http://mulheresnegrasdecidem.org{% if page.url %}{{page.url}}{% endif %}"/>
 	<meta property="fb:app_id" content="1848038148836677"/>
 	<meta property="og:type" content="website"/>
 </head>
